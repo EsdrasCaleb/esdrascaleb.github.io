@@ -8,6 +8,6 @@
 
 
 /* Extra */
-.icon svg:hover path {
+.icon:hover svg path {
     fill: #000000;
 }
