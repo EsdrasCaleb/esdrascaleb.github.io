@@ -50,3 +50,8 @@ a img {
 sup, sub {
     line-height: 0;
 }
+
+/* Extra */
+.icon:hover svg path {
+    fill: #000000;
+}
