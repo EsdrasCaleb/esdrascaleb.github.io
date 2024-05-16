@@ -4,12 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS('particles-js', {
+    "background":{
+      "color":"#DFDFDF",
+    },
     "particles": {
       "number": {
-        "value": 160,
+        "value": 80,
         "density": {
           "enable": true,
-          "value_area": 500
+          "value_area": 300
         }
       },
       "color": {
@@ -35,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "anim": {
           "enable": true,
-          "speed": 1,
+          "speed": 2,
           "opacity_min": 0,
           "sync": false
         }
@@ -45,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 4,
+          "speed": 5,
           "size_min": 0.3,
           "sync": false
         }
@@ -76,12 +79,12 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "bubble"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": true,
+          "mode": "push"
         },
         "resize": true
       },
@@ -100,8 +103,8 @@ document.addEventListener("DOMContentLoaded", function () {
           "speed": 3
         },
         "repulse": {
-          "distance": 400,
-          "duration": 0.4
+          "distance": 50,
+          "duration": 0.1
         },
         "push": {
           "particles_nb": 4

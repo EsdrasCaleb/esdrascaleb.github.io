@@ -8,14 +8,17 @@
   },
   "author": "Mauricio Urraco <mauriurraco@gmail.com>",
   "license": "MIT",
+  "preinstall": "npx npm-force-resolutions",
   "dependencies": {
-    "browser-sync": "^3.0.2",
-    "gulp": "^3.9.1",
+    "browser-sync": "3.0.2",
+    "gulp": "5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
-    "gulp-imagemin": "^4.1.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^5.1.0",
-    "gulp-uglify": "^3.0.2"
+    "sass": "^1.77.1"
+  },
+  "resolutions": {
+    "glob-parent": "^6.0.1"
   }
 }
