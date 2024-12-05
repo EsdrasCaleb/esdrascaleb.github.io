@@ -18,6 +18,6 @@ buycoffe_url: esdrascaleb
 # medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
-
+include: [".well-known"]
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
 

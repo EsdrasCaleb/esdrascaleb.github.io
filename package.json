@@ -10,7 +10,8 @@
   "license": "MIT",
   "preinstall": "npx npm-force-resolutions",
   "dependencies": {
-    "browser-sync": "3.0.2",
+    "browser-sync": "3.0.3",
+    "cookie": "^0.7.0",
     "gulp": "5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
