@@ -1,0 +1,25 @@
+#academic {
+  font-size: 120%;
+
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+#about .user-details{
+  text-align: justify;
+}
+
+#academic ul {
+  list-style-type: none;
+  padding: 0;
+}
+#academic li {
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-left: 4px solid #004080;
+}
