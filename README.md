@@ -68,7 +68,7 @@ You can (and should) edit the `.html` files for adding your own information, ico
 
 ```html
 <a aria-label="My Github" target="_blank" href="https://github.com/murraco">
-  <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+  <i class="icon fa-brands fa-github" aria-hidden="true"></i>
 </a>
 ```
 
