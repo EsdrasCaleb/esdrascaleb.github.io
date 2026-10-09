@@ -1,13 +1,13 @@
 # Site settings
 title: Esdras Caleb
-description: FULL Stack Developer
+description: FULL Stack & AI Developer / Researcher
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: https://esdrascaleb.github.io/
 
 # User settings
 username: Esdras Caleb
 user_description: I'm a Full Stack Developer and Game Programmer from Brazil
-user_title: Full Stack Developer
+user_title: Full Stack & AI Developer / Researcher
 email: esdrascaleb@gmail.com
 twitter_username: EsdrasCaleb
 instagram_username: acheicaleb
